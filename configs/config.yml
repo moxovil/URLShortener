@@ -1,0 +1,14 @@
+port: "8000"
+mode: "postgres"
+
+db:
+  host: "db"
+  port: "5432"
+  user: "postgres"
+  password: "qwerty"
+  dbname: "postgres"
+  sslmode: "disable"
+
+uniquestr:
+  len: 10
+  chars: "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_"
